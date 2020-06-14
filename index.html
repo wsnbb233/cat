@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>猫猫百科</title>
+    <link rel="stylesheet" href="1.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        a {
+            text-decoration: none;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+        .clear:after {
+            content: '';
+            display: block;
+            height: 0;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+         <div class="container clear">
+            <img src="images/logo.png" alt="logo图" class="logo" />
+            <ul class="nav clear">             
+                <li><a href="#">登录</a>
+                    <div class="form2">
+                        <table>
+                            <tr>
+                                <td>账号:</td>
+                                <td>
+                                    <form><input type="text" name="usersname" /></form>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>密码:</td>
+                                <td>
+                                    <form><input type="text" name="password" /></form>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <form><input type="submit" value="登录" /></form>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </li>
+            </ul>
+            <ul class="nav2 clear">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">猫咪种类</a></li>
+                <li><a href="#">喂养知识</a></li>
+                <li><a href="#">常见疾病</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+            <form class="form clear">
+                <input type="text" placeholder="搜索" class="search" />
+                <input type="button" class="submit" />
+            </form>
+        </div>
+    </div>
+    <div class="banner">
+        <ul>
+            <li class="banner-one"></li>
+            <li class="banner-two"></li>
+        </ul>
+        <img src="images/prev.png" alt="prev" class="prev" />
+        <img src="images/next.png" alt="next" class="next" />
+    </div>
+    <div class="title">
+        <p>猫咪品种大全</p>
+    </div>
+    <div class="content clear">
+        <ul class="nav3">
+            <li>
+                <img src="images/buou.png" alt="">
+                <br />
+                <a href="">布偶猫</a>
+                <p>祖籍：美国<br>寿命：12-15年<br>性格：温顺好静、对人友善<br>易患病：HCM心肌肥大症<br>价格：宠物级:8000-18000 赛级: 18000-25000</p>
+            </li>
+            <li>
+                <img src="images/xianluo.png" alt="">
+                <br />
+                <a href="">暹罗猫</a>
+                <p>祖籍：泰国<br>寿命：10-18年<br>性格：刚烈好动，机智灵活，好奇心强<br>易患病：后腿虚弱<br>价格：500-1500</p>
+            </li>
+            <li>
+                <img src="images/lihua.png" alt="">
+                <br />
+                <a href="">中华狸花猫</a>
+                <p>祖籍：中国<br>寿命：10-15年<br>性格：性格沉稳，感情丰富<br>易患病：消化系统与眼部的疾病<br>价格：2000--5000</p>
+            </li>
+            <li>
+                <img src="images/meiduan.png" alt="">
+                <br />
+                <a href="">美国短毛猫</a>
+                <p>祖籍：美国<br>寿命：15-20年<br>性格：脾气温顺，性格活泼<br>易患病：眼睑内翻<br>价格：普通：2000-3000 纯种：5000-7000<br>赛级：8000-12000</p>
+            </li>
+            <li>
+                <img src="images/bosi.png" alt="">
+                <br />
+                <a href="">波斯猫</a>
+                <p>祖籍：阿富汗<br>寿命：12-15年<br>性格：温文尔雅，反应灵敏，善解人意<br>易患病：泪腺重，易流眼泪<br>价格：4000-20000</p>
+            </li>
+            <li>
+                <img src="images/baomao.png" alt="">
+                <br />
+                <a href="">豹猫</a>
+                <p>祖籍：孟加拉<br>寿命:十几年<br>性格：精力充沛，有强烈好奇心<br>价格：3000+</p>
+            </li>
+            <li class="last">
+                <img src="images/senlin.png" alt="">
+                <br />
+                <a href="">挪威森林猫</a>
+                <p>祖籍：挪威<br>寿命：18-20年<br>性格：内向，独立性强，喜欢冒险和活动<br>价格：8000+</p>
+            </li>
+            <li class="last">
+                <img src="images/jiafei.png" alt="">
+                <br />
+                <a href="">加菲猫</a>
+                <p>寿命：十年左右<br>性格：十分温顺，对人亲近<br>易患病：肠胃疾病<br>价格：2000-30000</p>
+            </li>
+            <li class="last">
+                <img src="images/wumao.png" alt="">
+                <br />
+                <a href="">无毛猫</a>
+                <p>祖籍：加拿大<br>寿命：12年左右<br>性格：性情温顺，容易训练<br>易患病：皮肤病<br>价格：4000+</p>
+            </li>
+        </ul>
+    </div>
+    <div id="d3">
+        <p class="d3">© 2019-2020 猫猫百科 版权所有 冀ICP备88888888号</p>
+    </div>
+</body>
+
+</html>
